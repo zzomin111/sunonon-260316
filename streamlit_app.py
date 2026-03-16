@@ -25,6 +25,10 @@ with tab1:
 
     st.subheader("데이터 표시")
     df = pd.DataFrame(
+        import streamlit as st
+        import pandas as pd
+        import numpy as np
+
         np.random.randn(5, 3),
         columns=['A', 'B', 'C']
     )
